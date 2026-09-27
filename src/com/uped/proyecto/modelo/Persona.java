@@ -12,4 +12,8 @@ public class Persona {
     public String presentarse() { 
         return nombre + " (DUI: " + dui + ")"; 
     } 
+
+     public Persona(String nombre) { 
+        this(nombre, "PENDIENTE"); 
+    } 
 }
