@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 
 package com.uped.proyecto;
 import com.uped.proyecto.modelo.Cliente;
@@ -17,3 +19,4 @@ empleado.actualizarNombre("Luis Pérez Martínez");
 System.out.println(empleado.presentarse()); 
     }
 }
+>>>>>>> d5581edd4c5c3a8b640915bb26f806b1b7a2b910
