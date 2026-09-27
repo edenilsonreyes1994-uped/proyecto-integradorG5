@@ -3,7 +3,6 @@ package com.uped.proyecto;
 import com.uped.proyecto.modelo.Cliente;
 import com.uped.proyecto.modelo.Empleado;
 import com.uped.proyecto.modelo.Visitante;
-
 public class Main {
     public static void main(String[] args) {
 
