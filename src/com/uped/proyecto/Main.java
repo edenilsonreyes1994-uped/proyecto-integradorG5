@@ -16,7 +16,5 @@ Empleado empleado = new Empleado("Luis Pérez", "06223456-1", 850.0);
 System.out.println(empleado.presentarse()); 
 empleado.actualizarNombre("Luis Pérez Martínez"); 
 System.out.println(empleado.presentarse()); 
-
-
     }
 }
