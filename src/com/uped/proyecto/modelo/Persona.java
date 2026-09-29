@@ -1,6 +1,6 @@
 package com.uped.proyecto.modelo; 
   
-public abstract class Persona { 
+public class Persona { 
     protected String nombre; 
     protected String dui; 
   
@@ -12,11 +12,7 @@ public abstract class Persona {
     public String presentarse() { 
         return nombre + " (DUI: " + dui + ")"; 
     } 
-  
-    public abstract double calcularBeneficioAnual(); 
-} 
-
-
+}
 
 
 
