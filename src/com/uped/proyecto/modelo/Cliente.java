@@ -6,6 +6,7 @@ public class Cliente extends Persona {
     public Cliente(String nombre, String dui, String telefono) { 
         super(nombre, dui); 
         this.telefono = telefono; 
+        System.out.println("Cliente creado"); 
     } 
   
     public String getTelefono() { 

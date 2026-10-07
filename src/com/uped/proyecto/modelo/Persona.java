@@ -7,12 +7,11 @@ public class Persona {
     public Persona(String nombre, String dui) { 
         this.nombre = nombre; 
         this.dui = dui; 
+        System.out.println("Persona creada"); 
     } 
   
     public String presentarse() { 
         return nombre + " (DUI: " + dui + ")"; 
+        
     } 
-}
-
-
-
+} 
