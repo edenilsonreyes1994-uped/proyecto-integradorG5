@@ -14,4 +14,8 @@ public class Persona {
         return nombre + " (DUI: " + dui + ")"; 
         
     } 
+
+      public Persona(String nombre) { 
+        this(nombre, "PENDIENTE"); 
+    } 
 } 

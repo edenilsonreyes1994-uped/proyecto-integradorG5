@@ -1,6 +1,8 @@
 package com.uped.proyecto;
 
 import com.uped.proyecto.modelo.Cliente;
+import com.uped.proyecto.modelo.Empleado;
+import com.uped.proyecto.modelo.Visitante;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,5 +10,16 @@ public class Main {
     "04512378-9", "7777-1234"); 
     System.out.println(cliente.presentarse()); 
     new Cliente("Ana López", "04512378-9", "7777-1234");
+    Visitante v = new Visitante("Kevin"); 
+    System.out.println(v);     
+Empleado empleado = new Empleado("Luis Pérez", "06223456-1", 850.0); 
+System.out.println(empleado.presentarse()); 
+empleado.actualizarNombre("Luis Pérez Martínez"); 
+System.out.println(empleado.presentarse()); 
+
+ 
+
         }
     }
+
+
