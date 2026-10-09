@@ -3,6 +3,8 @@ package com.uped.proyecto;
 import com.uped.proyecto.modelo.Cliente;
 import com.uped.proyecto.modelo.Empleado;
 import com.uped.proyecto.modelo.Visitante;
+import com.uped.proyecto.modelo.Estudiante;
+import com.uped.proyecto.modelo.Docente;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +18,16 @@ Empleado empleado = new Empleado("Luis Pérez", "06223456-1", 850.0);
 System.out.println(empleado.presentarse()); 
 empleado.actualizarNombre("Luis Pérez Martínez"); 
 System.out.println(empleado.presentarse()); 
-
+ Estudiante e = new Estudiante( 
+            "Carlos Ramírez", "06123456-7", 
+            "UPED-2026-045", "Ing. en Sistemas"); 
+  
+        System.out.println(e); 
+        e.matricular("Programación III"); 
+        Docente docente = new Docente("María Hernández", "05987654-3", 
+"Ingeniería de Software", 8); 
+System.out.println(docente); 
+docente.impartirClase("Programación III");
  
 
         }
